@@ -1,0 +1,85 @@
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,#E6E6FA,#B8E7FA);
+}
+
+header{
+    background-color: #f9f9f9;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 90px;
+}
+.nav .logo{
+    margin: 11px 0px;
+
+}
+
+.nav h3{
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 900;
+}
+.nav span{
+    color: #FFA500;
+}
+.btn{
+    color: #0D1321;
+    background-image: linear-gradient(to right,#FFA500, #FFD447) ;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 10px;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Banner style */
+.banner {
+    margin: 100px 90px;
+    padding: 40px 60px;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    text-align: center;
+    height: 592px;
+    gap: 32px;
+}
+
+.bannger img{
+    
+    margin-bottom: 32px;
+}
+
+.banner .banner-content{
+     margin-top: 32px;
+     
+}
+
+.banner-content h2{
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 900;
+}
+.banner-content p{
+    padding: 24px 0px;
+    margin: 0px 240px;
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 80%;
+}
