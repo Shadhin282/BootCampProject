@@ -164,3 +164,34 @@ iframe{
     text-align: center;
 
 }
+/* Target Section Style */
+.target{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        justify-content: flex-start;
+}
+
+.target-content{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    text-align: center;
+}
+
+.target-card{
+    display:flex;
+
+    padding:40px;
+    
+    border-radius: 16px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180.00deg, rgb(230, 237, 249),rgb(157, 229, 255) 100%);
+}
+
+.target-card-content{
+    margin-right: 32px;
+    padding: 32px;
+    text-align: right;
+}
